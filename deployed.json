@@ -1,19 +1,36 @@
 {
   "_note": "Ce qui est installé en ce moment sur le compte claude.ai du propriétaire. Écrit par /installer-agents — jamais à la main. Les identifiants ne sont pas des secrets. \"prompt\" : \"stub\" = la tâche porte l'amorce (node tools/agents.cjs stub <id>) ; \"complet\" = elle porte encore les consignes complètes d'avant ce dépôt, à remplacer par /installer-agents ; null = agent pas encore installé.",
-  "installedAt": "2026-10-19T07:06:52Z",
-  "installedBy": "à la main, avant ce dépôt (session principale session_01Uxi6vTyZY4CiKFDutfBqKC)",
+  "installedAt": "2026-10-19T09:04:57Z",
+  "installedBy": "installer-agents (session_01Uxi6vTyZY4CiKFDutfBqKC)",
   "agents": {
     "moteur": {
-      "session": "session_01XiS1Z6SgScfSzQZXfchU16",
-      "trigger": "trig_01HXLPtfrVVbs7phXKgFDpf9",
-      "prompt": "complet"
+      "session": "session_01Y9zwwkTjQ894YXoXivY7ZU",
+      "trigger": "trig_01RrkD2CtnRBQTrLUiv1Xz6o",
+      "prompt": "stub"
     },
     "galerie": {
+      "session": "session_01FuEoedMtdm54L45HUHfbS3",
+      "trigger": "trig_013gE25z4HDtH2JzfPHMCcdE",
+      "prompt": "stub"
+    },
+    "surveillance": {
+      "session": "session_016EPmCAhWf41WezBGnJ6MDM",
+      "trigger": "trig_01BhdBGe7dKUJfzyL5BphTUQ",
+      "prompt": "stub"
+    }
+  },
+  "replaced": [
+    {
+      "agent": "moteur",
+      "session": "session_01XiS1Z6SgScfSzQZXfchU16",
+      "trigger": "trig_01HXLPtfrVVbs7phXKgFDpf9",
+      "state": "tâche désactivée le 2026-10-19 ; session renommée « ANCIENNE session »"
+    },
+    {
+      "agent": "galerie",
       "session": "session_018vJE63U3jBc9X71rt9ntkT",
       "trigger": "trig_01VJMfnsGbT2tQadYQgbaCEg",
-      "prompt": "complet"
-    },
-    "surveillance": null
-  },
-  "replaced": []
+      "state": "tâche désactivée le 2026-10-19 ; session renommée « ANCIENNE session »"
+    }
+  ]
 }
