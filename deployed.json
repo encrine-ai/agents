@@ -1,0 +1,19 @@
+{
+  "_note": "Ce qui est installé en ce moment sur le compte claude.ai du propriétaire. Écrit par /installer-agents — jamais à la main. Les identifiants ne sont pas des secrets. \"prompt\" : \"stub\" = la tâche porte l'amorce (node tools/agents.cjs stub <id>) ; \"complet\" = elle porte encore les consignes complètes d'avant ce dépôt, à remplacer par /installer-agents ; null = agent pas encore installé.",
+  "installedAt": "2026-10-19T07:06:52Z",
+  "installedBy": "à la main, avant ce dépôt (session principale session_01Uxi6vTyZY4CiKFDutfBqKC)",
+  "agents": {
+    "moteur": {
+      "session": "session_01XiS1Z6SgScfSzQZXfchU16",
+      "trigger": "trig_01HXLPtfrVVbs7phXKgFDpf9",
+      "prompt": "complet"
+    },
+    "galerie": {
+      "session": "session_018vJE63U3jBc9X71rt9ntkT",
+      "trigger": "trig_01VJMfnsGbT2tQadYQgbaCEg",
+      "prompt": "complet"
+    },
+    "surveillance": null
+  },
+  "replaced": []
+}

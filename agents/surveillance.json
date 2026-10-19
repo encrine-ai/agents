@@ -1,0 +1,12 @@
+{
+  "id": "surveillance",
+  "title": "Encrine – surveillance des agents",
+  "schedule": "CRON_TZ=Europe/Paris 40 6 * * *",
+  "procedure": "procedures/surveillance/verifier-agents.md",
+  "workdir": "agents",
+  "repos": [
+    { "repo": "encrine-ai/agents", "access": "push" }
+  ],
+  "permissionMode": "auto",
+  "prompt": "agents/surveillance.prompt.md"
+}

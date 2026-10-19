@@ -1,0 +1,17 @@
+{
+  "id": "moteur",
+  "title": "Encrine – agent moteur (remontées)",
+  "schedule": "CRON_TZ=Europe/Paris 50 2 * * *",
+  "procedure": "procedures/moteur/trier-remontees.md",
+  "workdir": "moteur",
+  "repos": [
+    { "repo": "encrine-ai/agents", "access": "push" },
+    { "repo": "encrine-ai/moteur", "access": "push" },
+    { "repo": "encrine-ai/encrine-ai.github.io", "access": "read" },
+    { "repo": "encrine-ai/tour-du-monde", "access": "push" },
+    { "repo": "jlrigau/grande-section", "access": "push" }
+  ],
+  "reposNote": "plus every class of classes.json whose depot is in encrine-ai (the reviewed copies of the gallery), added at run time with add_repo push",
+  "permissionMode": "auto",
+  "prompt": "agents/moteur.prompt.md"
+}

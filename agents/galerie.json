@@ -1,0 +1,15 @@
+{
+  "id": "galerie",
+  "title": "Encrine – agent galerie (publications)",
+  "schedule": "CRON_TZ=Europe/Paris 50 4 * * *",
+  "procedure": "procedures/galerie/relire-classe.md",
+  "workdir": "encrine-ai.github.io",
+  "repos": [
+    { "repo": "encrine-ai/agents", "access": "push" },
+    { "repo": "encrine-ai/encrine-ai.github.io", "access": "push" },
+    { "repo": "encrine-ai/moteur", "access": "read" }
+  ],
+  "reposNote": "encrine-ai/moteur is cloned READ ONLY to /tmp/encrine-outils (the trusted review tooling); plus, for each class to publish, update or check, its copy encrine-ai/<id> (add_repo push); submitted classes are cloned read-only from their public URL",
+  "permissionMode": "auto",
+  "prompt": "agents/galerie.prompt.md"
+}
