@@ -123,7 +123,7 @@ print('\n'.join(c['depot'] for c in d['classes'] if c.get('depot','').startswith
 
 `classes.json` introuvable ou illisible : se contenter du tableau, et le
 dire. Le dépôt **d'un enseignant** — la classe d'où vient une copie, ou
-toute classe hors de `encrine-ai`, comme `jlrigau/grande-section` — ne reçoit jamais de poussée ni même de lecture de l'agent (décidé le 19 octobre 2026 : une classe créée depuis la plateforme mais qui n'est pas dans la galerie est un dépôt à part, que son enseignant met à jour lui-même) : son
+toute classe hors de `encrine-ai`, comme `auregendreau/faune-et-flore` — ne reçoit jamais de poussée ni même de lecture de l'agent (décidé le 19 octobre 2026 : une classe créée depuis la plateforme mais qui n'est pas dans la galerie est un dépôt à part, que son enseignant met à jour lui-même) : son
 issue dit comment se mettre à jour (« ask your agent: *mets l'outil à
 jour* — skill synchroniser-moteur »).
 
