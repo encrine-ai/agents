@@ -184,9 +184,7 @@ de la mise en route, `git pull --ff-only`, ou un `git clone` neuf ; jamais
 3. **Relire le diff** : rien du contenu de la classe ne doit y apparaître
    (synchroniser-moteur, « Ce qui bouge, ce qui ne bouge jamais ») ;
    `python3 scripts/chemins_moteur.py bilan` le range fichier par fichier et
-   sort en code 1 au premier fichier de contenu. Pour la
-   Grande Section, la moindre ligne d'un document ou d'un cahier qui change
-   arrête la propagation de cette classe : contenu validé. Seuls changent,
+   sort en code 1 au premier fichier de contenu. Seuls changent,
    par construction, les fichiers que synchroniser-moteur dit fabriqués
    (`charte.css`, l'appli installable, le titre d'`index.html`, le bloc de
    tête du `README.md`) : les relire quand même, le reste du README est à la
@@ -351,8 +349,7 @@ battement de cœur.
   propriétaire, puis la fusion par l'agent — jamais avant, jamais sur l'OK
   d'un autre.
 - Jamais le contenu d'une classe : la couche moteur seulement
-  (`scripts/chemins_moteur.py`, la seule liste), et pour la Grande Section, rien qui change un
-  document ou un cahier.
+  (`scripts/chemins_moteur.py`, la seule liste).
 - Une classe ne reçoit une poussée que si **tous** ses contrôles sont verts,
   en avance rapide, et n'est dite à jour qu'une fois vue en ligne.
 - Jamais `classes.json` ni le dépôt de la galerie en écriture ; jamais le

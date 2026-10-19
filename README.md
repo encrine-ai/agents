@@ -6,7 +6,7 @@ pour le comprendre, le réinstaller et le réparer est dans ce dépôt. Ce qui t
 
 | Agent | Quand (Paris) | Son travail | Procédure |
 | --- | --- | --- | --- |
-| **moteur** | 02:50 | La boîte du moteur (issues de `encrine-ai/moteur`, envoyées par les classes avec remonter-au-moteur) → un seul lot (demande de fusion `remontees/lot` sur `encrine-ai/moteur`), essayé à blanc sur chaque classe → l'« OK » du propriétaire → fusion → installation dans la démonstration, les copies de la galerie et la Grande Section, contrôles jusqu'au PDF, vérifiée en ligne | [`procedures/moteur/trier-remontees.md`](procedures/moteur/trier-remontees.md) |
+| **moteur** | 02:50 | La boîte du moteur (issues de `encrine-ai/moteur`, envoyées par les classes avec remonter-au-moteur) → un seul lot (demande de fusion `remontees/lot` sur `encrine-ai/moteur`), essayé à blanc sur chaque classe → l'« OK » du propriétaire → fusion → installation dans la démonstration et les copies de la galerie, contrôles jusqu'au PDF, vérifiée en ligne | [`procedures/moteur/trier-remontees.md`](procedures/moteur/trier-remontees.md) |
 | **galerie** | 04:50 | Les demandes de partage sur `encrine-ai/encrine-ai.github.io` → relecture (la sécurité des enfants d'abord, par un relecteur neuf) → le « publie <classe> » du propriétaire → copie relue servie sur `https://encrine.ai/<id>/` et sa carte dans `classes.json` ; mises à jour, retraits, et la vérification de nuit des copies | [`procedures/galerie/relire-classe.md`](procedures/galerie/relire-classe.md) |
 | **surveillance** | 06:40 | Les deux agents ont-ils vraiment tourné cette nuit ? Muet si oui ; sinon une relance automatique et une notification au propriétaire | [`procedures/surveillance/verifier-agents.md`](procedures/surveillance/verifier-agents.md) |
 
