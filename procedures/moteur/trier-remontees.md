@@ -109,14 +109,12 @@ partager-ma-classe), chaque classe acceptée a sa copie dans `encrine-ai`
 (`encrine-ai/<id>`, servie sur `https://encrine.ai/<id>/`), et c'est elle
 que nomme le `depot` de sa carte : la règle « `encrine-ai/*` de
 `classes.json` » prend donc, sans rien ajouter, la démonstration **et**
-toutes les copies de la galerie. Dans une copie, comme dans la Grande
-Section, seule la couche moteur change : son contenu est celui qui a été
+toutes les copies de la galerie. Dans une copie, seule la couche moteur change : son contenu est celui qui a été
 relu, et ne bouge qu'après une nouvelle relecture, par la galerie.
 
 | Dépôt | Site | Ce qu'on y fait |
 |---|---|---|
 | *chaque `depot` `encrine-ai/*` de `classes.json`* — aujourd'hui `encrine-ai/tour-du-monde`, la démonstration ; demain, chaque copie relue de la galerie | le `site` de son entrée (https://encrine.ai/tour-du-monde/, https://encrine.ai/<id>/) | synchroniser le moteur ; pour une copie de la galerie, **la couche moteur seulement** : le moindre fichier de contenu qui change arrête sa propagation (`chemins_moteur.py bilan` en code 1) |
-| `jlrigau/grande-section` | https://jlrigau.github.io/grande-section/ | synchroniser le moteur **seulement** : son contenu est validé par l'enseignante (progressions, évaluations, fiches, espèces, mots, textes) et n'est jamais touché, même régénéré à l'identique d'une autre façon |
 
 ```sh
 python3 -c "import json; d=json.load(open('/home/user/encrine-ai.github.io/classes.json')); \
@@ -125,7 +123,7 @@ print('\n'.join(c['depot'] for c in d['classes'] if c.get('depot','').startswith
 
 `classes.json` introuvable ou illisible : se contenter du tableau, et le
 dire. Le dépôt **d'un enseignant** — la classe d'où vient une copie, ou
-toute classe hors de `encrine-ai` — ne reçoit jamais de poussée : son
+toute classe hors de `encrine-ai`, comme `jlrigau/grande-section` — ne reçoit jamais de poussée ni même de lecture de l'agent (décidé le 19 octobre 2026 : une classe créée depuis la plateforme mais qui n'est pas dans la galerie est un dépôt à part, que son enseignant met à jour lui-même) : son
 issue dit comment se mettre à jour (« ask your agent: *mets l'outil à
 jour* — skill synchroniser-moteur »).
 

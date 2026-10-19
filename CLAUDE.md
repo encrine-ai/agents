@@ -20,7 +20,8 @@
   `AskUserQuestion`, une à la fois.
 - Dépôts liés : `encrine-ai/moteur` (le modèle, l'atelier et la boîte du moteur),
   `encrine-ai/encrine-ai.github.io` (le site, la galerie `classes.json`, les demandes de partage et
-  les outils de relecture `outils/`), `encrine-ai/tour-du-monde` (la démonstration), les copies
-  relues `encrine-ai/<id>`, et `jlrigau/grande-section` (la classe d'une enseignante, contenu validé :
-  seul le moteur y est synchronisé).
+  les outils de relecture `outils/`), `encrine-ai/tour-du-monde` (la démonstration) et les copies
+  relues `encrine-ai/<id>`. Une classe d'enseignant hors de `encrine-ai` (par exemple
+  `jlrigau/grande-section`) est un dépôt à part : aucun agent ne la gère ; son enseignant la met à
+  jour depuis sa propre session (« mets l'outil à jour »), et la propose à la galerie s'il le veut.
 - Ludea est un projet à part : voir le README, « Avec Ludea ».
