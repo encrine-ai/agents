@@ -24,13 +24,13 @@
       "agent": "moteur",
       "session": "session_01XiS1Z6SgScfSzQZXfchU16",
       "trigger": "trig_01HXLPtfrVVbs7phXKgFDpf9",
-      "state": "tâche désactivée le 2026-10-19 ; session renommée « ANCIENNE session »"
+      "state": "tâche supprimée et session archivée le 2026-10-20, après une première nuit verte"
     },
     {
       "agent": "galerie",
       "session": "session_018vJE63U3jBc9X71rt9ntkT",
       "trigger": "trig_01VJMfnsGbT2tQadYQgbaCEg",
-      "state": "tâche désactivée le 2026-10-19 ; session renommée « ANCIENNE session »"
+      "state": "tâche supprimée et session archivée le 2026-10-20, après une première nuit verte"
     }
   ]
 }
