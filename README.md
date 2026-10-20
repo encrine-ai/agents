@@ -69,6 +69,10 @@ procédures d'ici s'en servent dans les clones de ces dépôts.
 - **Clones neufs et indépendants** : chaque dépôt se clone avec `git clone` (après `add_repo`), et
   l'on vérifie `git remote get-url origin` ; jamais `cp -r` d'un dossier de travail — c'est arrivé,
   et le nom d'un dossier ne prouve rien.
+- **Branches** : les sessions Claude Code sur le web peuvent pousser une branche `claude/…` à
+  elles ; le travail, lui, va sur `main`, et le workflow `menage-branches` (copie de celui du
+  moteur) supprime ces branches une fois intégrées à `main` — jamais une autre, jamais une
+  `claude/…` qui garde un commit absent de `main`. Plus besoin de les supprimer à la main.
 - **Les procédures sont propres à la plateforme** : elles vivent ici, pas dans le modèle
   (`encrine-ai/moteur`) ni dans le dépôt de la galerie, donc jamais chez un enseignant. Les outils
   des enseignants (nouvelle-classe, remonter-au-moteur, synchroniser-moteur, partager-ma-classe…)
