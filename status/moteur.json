@@ -1,3 +1,10 @@
-{ "agent": "moteur", "date": "2026-10-22", "finishedAt": "2026-10-22T11:56:08Z",
-  "result": "ok", "summary": "Mises à jour encrine-ai/moteur#3 et #4 intégrées après l'OK et installées dans la démonstration, vues en ligne ; remontées #1 et #2 fermées.",
-  "waitingForOwner": [] }
+{
+ "agent": "moteur",
+ "date": "2026-10-22",
+ "finishedAt": "2026-10-22T12:08:57Z",
+ "result": "ok",
+ "summary": "Mises à jour #3 et #4 installées dans la démonstration ; nouvelle mise à jour proposée : le guide vouvoie, le chat suit l'enseignant (#5).",
+ "waitingForOwner": [
+  "OK sur encrine-ai/moteur#5"
+ ]
+}
