@@ -1,3 +1,3 @@
-{ "agent": "surveillance", "date": "2026-10-25", "checkedAt": "2026-10-25T05:42:00Z",
-  "moteur": "missing", "galerie": "nothing-new",
-  "reruns": ["moteur"], "notified": true }
+{ "agent": "surveillance", "date": "2026-10-26", "checkedAt": "2026-10-26T05:42:00Z",
+  "moteur": "nothing-new", "galerie": "nothing-new",
+  "reruns": [], "notified": false }
