@@ -299,19 +299,31 @@ reste alors `review:changes-requested` jusqu'à sa décision.
 
 ### 1.6 Le consentement et la licence (bloquants)
 
-- **Consentement explicite** de l'auteur, écrit **par le propriétaire du
+- **Consentement explicite à CHAQUE publication** (règle commune aux
+  plateformes de Manufacture, décision du propriétaire du 15 novembre 2026) :
+  la première comme chaque mise à jour (§3), donné **après** le commit relu
+  et **pour cette version**. Il est écrit **par le propriétaire du
   dépôt `classe` ou un contributeur** : les cases du formulaire cochées
   (`- [x]`), ou sa phrase dans la demande ou un commentaire. Il doit dire
-  qu'Encrine **héberge une copie relue**, la **montre avec son nom
-  d'auteur**, et qu'on peut **en partir selon sa licence**. S'il manque (une
-  demande d'avant le formulaire, une case décochée, une issue ouverte par
-  quelqu'un d'autre), demander sur l'issue, en une phrase anglaise et une
-  française :
-  > To publish your class in the Encrine gallery, please confirm in a comment: "I agree that Encrine hosts a reviewed copy of my class at encrine.ai, shows it in its gallery credited as <auteur>, and lets other teachers start from it under its licence (<licence>). Encrine takes it down whenever I ask."
-  > Pour publier ta classe dans la galerie d'Encrine, confirme en commentaire : « J'accepte qu'Encrine héberge une copie relue de ma classe sur encrine.ai, la montre dans sa galerie au nom de <auteur>, et que d'autres enseignants en partent selon sa licence (<licence>). Encrine la retire dès que je le demande. »
+  qu'Encrine **héberge une copie relue** de cette version, la **montre avec
+  son nom d'auteur** (le crédit de cette version), qu'on peut **en partir
+  selon sa licence** (celle de cette version), et, pour une mise à jour,
+  **ce qui a changé** depuis la dernière version publiée. Un consentement
+  donné pour une version précédente ne vaut pas pour la suivante. S'il manque
+  (une demande d'avant le formulaire, une case décochée, une issue ouverte
+  par quelqu'un d'autre, une mise à jour), demander sur l'issue, en une
+  phrase anglaise et une française :
+  > To publish this version of your class in the Encrine gallery, please confirm in a comment: "I agree that Encrine hosts a reviewed copy of my class at encrine.ai, at commit <sha court>, shows it in its gallery credited as <auteur>, and lets other teachers start from it under its licence (<licence>). Changes since the last published version: <ce qui a changé, ou « first publication »>. Encrine takes it down whenever I ask."
+  > Pour publier cette version de ta classe dans la galerie d'Encrine, confirme en commentaire : « J'accepte qu'Encrine héberge une copie relue de ma classe sur encrine.ai, au commit <sha court>, la montre dans sa galerie au nom de <auteur>, et que d'autres enseignants en partent selon sa licence (<licence>). Ce qui a changé depuis la dernière version publiée : <ce qui a changé, ou « première publication »>. Encrine la retire dès que je le demande. »
 
   Sans ce oui, rien n'est publié, quoi que dise la relecture. Le propriétaire
-  peut le donner pour une classe à lui (`jlrigau/…`) dans la session.
+  peut le donner pour une classe à lui (`jlrigau/…`) dans la session, à
+  chaque publication lui aussi.
+- **Les œuvres du propriétaire** (une classe de `jlrigau/…` ou
+  d'`encrine-ai/…`) sont créditées **au nom de la plateforme** : « par
+  Encrine » (`auteur` de la carte et du consentement = `Encrine`), jamais
+  sous le nom du propriétaire. Le consentement et les conditions affichées
+  le disent.
 - **Licence déclarée** : `licence` de la fiche, `LICENCE-CONTENU.md` à la
   racine de la classe et `partage.licence` disent la même chose ; une classe
   partie d'une classe CC BY-SA (`origine.licence`) reste CC BY-SA ; si des
@@ -507,9 +519,13 @@ sur la copie tant que la mise à jour n'est pas relue **et** acceptée.
   comme au §1.3, ils n'atteignent pas la copie) : les contrôles de confiance
   **complets** (§1.2–1.3) sur le nouveau commit, et un relecteur neuf (§1.5)
   sur **tout ce qui a changé ou s'est ajouté** (textes, images, pages, thème,
-  manifestes) — le reste a déjà été approuvé. Le consentement donné au
-  premier partage vaut pour ses mises à jour ; une **licence** ou un
-  **auteur** qui changent se reconfirment (§1.6).
+  manifestes) — le reste a déjà été approuvé. **Chaque mise à jour demande
+  un nouveau consentement** (§1.6), pour cette version : il nomme le crédit
+  et la licence de la nouvelle version et ce qui a changé depuis la dernière
+  version publiée (résumé fait par l'agent depuis le diff relu, sans citer de
+  prénom ni de contenu préjudiciable). Le consentement du premier partage ne
+  suffit plus, même si ni la licence ni l'auteur ne changent (décision du
+  propriétaire du 15 novembre 2026). Sans lui, rien ne bouge sur la copie.
 - **Verdict** posté (même structure, marque `relecture v1`) ; accord du
   propriétaire : `/accept`, ou « publie la mise à jour de <classe> ».
 - **Appliquer sur la copie**, jamais sur le dépôt de l'enseignant :
