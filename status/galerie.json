@@ -1,3 +1,3 @@
-{ "agent": "galerie", "date": "2026-11-20", "finishedAt": "2026-11-20T03:51:51Z",
-  "result": "nothing-new", "summary": "Aucune demande ouverte ; la copie tour-du-monde est en ligne, déploiement vert, modèle activé, pied « Mentions légales » présent.",
+{ "agent": "galerie", "date": "2026-11-22", "finishedAt": "2026-11-22T03:51:14Z",
+  "result": "nothing-new", "summary": "Aucune demande ouverte ; la copie tour-du-monde est en ligne, déploiement vert, modèle activé, pied « Mentions légales » présent. Le passage du 21/11 n'a pas eu lieu (session inactive, rattrapé ici).",
   "waitingForOwner": ["licence par défaut des classes : à décider"] }
