@@ -1,3 +1,3 @@
-{ "agent": "moteur", "date": "2026-11-23", "finishedAt": "2026-11-23T01:50:37Z",
-  "result": "nothing-new", "summary": "Boîte du moteur vide : aucune remontée ouverte, aucune mise à jour en attente. Les tâches des 21 et 22 novembre ne sont arrivées que cette nuit, avec celle du 23 : un seul passage les couvre.",
+{ "agent": "moteur", "date": "2026-11-24", "finishedAt": "2026-11-24T01:50:52Z",
+  "result": "nothing-new", "summary": "Boîte du moteur vide : aucune remontée ouverte, aucune mise à jour en attente ni à installer.",
   "waitingForOwner": [] }
