@@ -1,3 +1,8 @@
-{ "agent": "moteur", "date": "2026-11-26", "finishedAt": "2026-11-26T01:50:58Z",
-  "result": "nothing-new", "summary": "Boîte du moteur vide : aucune remontée ouverte, aucune mise à jour en attente ni à installer.",
-  "waitingForOwner": [] }
+{
+  "agent": "moteur",
+  "date": "2026-11-27",
+  "finishedAt": "2026-11-27T01:51:40Z",
+  "result": "nothing-new",
+  "summary": "Aucune remontée ouverte ni PR de lot sur encrine-ai/moteur ; tour-du-monde à jour (eabfb93), moteur à 78a03c0.",
+  "waitingForOwner": []
+}
