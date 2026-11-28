@@ -1,7 +1,7 @@
 {
   "agent": "moteur",
-  "date": "2026-11-27",
-  "finishedAt": "2026-11-27T01:51:40Z",
+  "date": "2026-11-28",
+  "finishedAt": "2026-11-28T01:50:33Z",
   "result": "nothing-new",
   "summary": "Aucune remontée ouverte ni PR de lot sur encrine-ai/moteur ; tour-du-monde à jour (eabfb93), moteur à 78a03c0.",
   "waitingForOwner": []
